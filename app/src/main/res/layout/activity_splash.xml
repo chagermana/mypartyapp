@@ -22,7 +22,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MyPartyApp"
+        android:text="Party App"
         android:textColor="#01D509"
         android:textSize="30sp"
         android:textStyle="bold"
