@@ -3,63 +3,60 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F535AA"
+    android:background="#E35BAE"
     tools:context=".MainActivity">
-
-
-
 
 
     <ImageView
         android:id="@+id/img_babyshower"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintHorizontal_bias="0.228"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.301"
+        app:layout_constraintVertical_bias="0.286"
         app:shapeAppearanceOverlay="@style/RoundCorner"
-        app:srcCompat="@drawable/babyshower" />
+        app:srcCompat="@drawable/babyshower2" />
 
     <ImageView
         android:id="@+id/img_birthday"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintHorizontal_bias="0.869"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.206"
+        app:layout_constraintVertical_bias="0.28"
         app:shapeAppearanceOverlay="@style/RoundCorner"
         app:srcCompat="@drawable/birthdayanimated" />
 
     <ImageView
         android:id="@+id/img_graduation"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintHorizontal_bias="0.771"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.658"
+        app:layout_constraintVertical_bias="0.649"
         app:shapeAppearanceOverlay="@style/RoundCorner"
         app:srcCompat="@drawable/graduation" />
 
     <ImageView
         android:id="@+id/img_wedding"
-        android:layout_width="100dp"
+        android:layout_width="150dp"
         android:layout_height="210dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintHorizontal_bias="0.145"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.667"
+        app:layout_constraintVertical_bias="0.664"
         app:shapeAppearanceOverlay="@style/RoundCorner"
         app:srcCompat="@drawable/wedding" />
 
@@ -77,6 +74,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.094" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

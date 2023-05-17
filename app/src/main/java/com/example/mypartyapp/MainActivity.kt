@@ -3,16 +3,24 @@ package com.example.mypartyapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.provider.MediaStore
 import android.widget.ImageView
 import android.widget.Toast
-
+import android.app.Activity
+import android.view.View
 
 
 class MainActivity : AppCompatActivity() {
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
+
+
 
         val img_babyshower=findViewById<ImageView>(R.id.img_babyshower)
         img_babyshower.setOnClickListener{
@@ -37,6 +45,8 @@ class MainActivity : AppCompatActivity() {
             val intent=Intent(this,WeddingActivity::class.java)
             startActivity(intent)
         }
+
+
 
 
 
